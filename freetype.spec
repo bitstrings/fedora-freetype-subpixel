@@ -25,6 +25,8 @@ Patch4:  freetype-2.8-multilib.patch
 
 Patch5:  freetype-2.9-ftsmooth.patch
 
+Patch6:  freetype-ftlcdfil.patch
+
 BuildRequires:  gcc
 BuildRequires: libX11-devel
 BuildRequires: libpng-devel
@@ -83,6 +85,7 @@ popd
 %patch3 -p1 -b .libtool
 %patch4 -p1 -b .multilib
 %patch5 -p1 -b .ftsmooth
+%patch6 -p1 -b .ftlcdfil
 
 %build
 
