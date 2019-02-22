@@ -7,9 +7,9 @@ Release: 6%{?dist}
 License: (FTL or GPLv2+) and BSD and MIT and Public Domain and zlib with acknowledgement
 Group: System Environment/Libraries
 URL: http://www.freetype.org
-Source:  http://download.savannah.gnu.org/releases/freetype/freetype-%{version}.tar.bz2
-Source1: http://download.savannah.gnu.org/releases/freetype/freetype-doc-%{version}.tar.bz2
-Source2: http://download.savannah.gnu.org/releases/freetype/ft2demos-%{version}.tar.bz2
+Source:  https://ftp.osuosl.org/pub/blfs/conglomeration/freetype/freetype-%{version}.tar.bz2
+Source1: https://ftp.osuosl.org/pub/blfs/conglomeration/freetype/freetype-doc-%{version}.tar.bz2
+Source2: https://ftp.osuosl.org/pub/blfs/conglomeration/freetype/ft2demos-%{version}.tar.bz2
 Source3: ftconfig.h
 Source4: %{name}.sh
 
